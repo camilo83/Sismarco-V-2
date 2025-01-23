@@ -1,0 +1,64 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --green: #65bb96;
+  --blue: #164193;
+  --roboto: 'Roboto', serif;
+  --inter-light: 'inter-light';
+  --inter-regular: 'inter-regular';
+  --title: 64px;
+  --subtitle: 40px;
+  --mid_subtitle: 32px;
+  --big-p: 24px;
+  --p: font-size: 20px;
+  --small-p: 16px;
+
+}
+
+  @font-face {
+    font-family: 'inter-regular';
+    src: url('../public/fonts/Inter_28pt-Regular.ttf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'inter-light';
+    src: url('../public/fonts/Inter_24pt-Light.ttf') format('opentype');
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  margin: 0rem;
+  color: var(--black);
+  font-family: var(--inter-regular);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+div,
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+
+
